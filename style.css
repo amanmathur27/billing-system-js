@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.add-item,
+.items,
+.total,
+.invoice {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-item h2,
+.items h2,
+.total h2,
+.invoice h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.input-group button {
+    padding: 10px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #45a049;
+}
+
+.items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.items li span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.items button {
+    padding: 10px 16px;
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.items button:hover {
+    background-color: #e62d1f;
+}
+
+.total button {
+    padding: 10px 16px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.total button:hover {
+    background-color: #0056b3;
+}
+
+.total-price {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.invoice button {
+    padding: 10px 16px;
+    background-color: #ff851b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.invoice button:hover {
+    background-color: #e6730f;
+}
